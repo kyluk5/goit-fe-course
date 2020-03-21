@@ -1,6 +1,23 @@
-li.main-menu-item {
+body {
+  font-family: "Playfair Display", "Arial", "Times New Roman", sans-serif;
+  color: #626262;
+  font-size: 14px;
+  line-height: 24px;
+}
+.main-menu {
+  font-family: "Playfair Display", "Arial", "Times New Roman", sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+}
+.main-menu a {
+  color: #626262;
+  font-weight: 400;
   text-transform: uppercase;
+  text-decoration: none;
 }
 ul.main-menu {
+  list-style: none;
+}
+.lifestyle-list {
   list-style: none;
 }
