@@ -21,3 +21,25 @@ ul.main-menu {
 .lifestyle-list {
   list-style: none;
 }
+p.Ubuntu {
+  font-family: "Ubuntu", "Arial", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+.lifestyle-list-item h3 {
+  color: #626262;
+  font-size: 30px;
+  line-height: 36px;
+}
+.lifestyle-list-item p {
+  color: #626262;
+  font-size: 14px;
+}
+button {
+  color: #626262;
+  font-size: 20px;
+}
+.main-nav a:hover {
+  color: red;
+}
