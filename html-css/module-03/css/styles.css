@@ -1,13 +1,38 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
 body {
   font-family: "Playfair Display", "Arial", "Times New Roman", sans-serif;
   color: #626262;
   font-size: 14px;
   line-height: 24px;
 }
+.container {
+  width: 900px;
+  margin: 0 auto;
+}
+
 .main-menu {
+  width: 900px;
+  margin-top: 77px;
+  margin-bottom: 104px;
+  padding-left: 165px;
+  padding-right: 165px;
   font-family: "Playfair Display", "Arial", "Times New Roman", sans-serif;
   font-size: 14px;
   line-height: 24px;
+}
+.main-menu li {
+  display: inline-block;
+  margin-right: 101px;
+}
+.main-menu li:last-child {
+  margin-right: 0px;
 }
 .main-menu a {
   color: #626262;
@@ -40,6 +65,12 @@ button {
   color: #626262;
   font-size: 20px;
 }
-.main-nav a:hover {
-  color: red;
+.main-nav a:hover,
+.main-nav a:focus {
+  color: #03a9f4;
 }
+.lifestyle-list {
+  padding: 0;
+  margin: 0;
+}
+// Нарешті доробив шапку сайта (сподіваюсь)//
