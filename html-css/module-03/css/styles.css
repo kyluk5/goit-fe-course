@@ -14,8 +14,10 @@ body {
 }
 .container {
   width: 900px;
-  margin: 0 auto;
+  margin: 0px auto;
 }
+
+/*HEADER*/
 
 .main-menu {
   width: 900px;
@@ -48,46 +50,67 @@ ul.main-menu {
   color: #03a9f4;
 }
 
-/* Нарешті доробив шапку сайта (сподіваюсь)))*/
+/* MAIN*/
 
 .lifestyle-list {
   list-style: none;
-}
-p.Ubuntu {
-  font-family: "Ubuntu", "Arial", sans-serif;
-  font-size: 14px;
-  font-weight: 300;
-  text-transform: uppercase;
-}
-.lifestyle-list-item h3 {
-  color: #626262;
-  font-size: 30px;
-  line-height: 36px;
-}
-.lifestyle-list-item p {
-  color: #626262;
-  font-size: 14px;
-}
-button {
-  color: #626262;
-  font-size: 20px;
-}
-
-.lifestyle-list {
-  padding: 0;
-  margin: 0;
+  padding: 0px;
+  margin: 0px;
   font-size: 0px;
 }
 .lifestyle-list-item {
   display: inline-block;
   width: 420px;
+  height: 474px;
   margin-right: 60px;
+  margin-bottom: 135px;
 }
-
-/*Потрібно розібратіся з маржинами між контентом */
-
 .lifestyle-list-item:nth-child(2n) {
   margin-right: 0px;
 }
-/*Для того щоб прибрати відступи справа в усіх елементів 
-які булі під номером (2) два, прописав цю команду */
+img {
+  margin-bottom: 30px;
+}
+p.Ubuntu {
+  display: inline;
+  font-family: "Ubuntu", "Arial", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  text-transform: uppercase;
+  margin-top: 0px;
+  margin-bottom: 27px;
+}
+.lifestyle-list-item h3 {
+  color: #626262;
+  font-size: 30px;
+  margin-top: 0px;
+  margin-bottom: 30px;
+}
+.lifestyle-list-item p {
+  color: #626262;
+  font-size: 14px;
+  line-height: 24px;
+  margin: 0px;
+}
+.about {
+  width: 420px;
+  height: 63px;
+}
+button {
+  display: inline-block;
+  margin-top: 57px;
+  margin-right: 375px;
+  margin-bottom: 70px;
+  margin-left: 360px;
+  padding-left: 33px;
+  padding-top: 26px;
+  padding-right: 33px;
+  padding-bottom: 20px;
+  color: #626262;
+  border-color: #626262;
+  font-size: 20px;
+}
+button:hover,
+button:focus {
+  color: #03a9f4;
+}
