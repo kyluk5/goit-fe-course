@@ -64,51 +64,62 @@ ul.main-menu {
   height: 474px;
   margin-right: 60px;
   margin-bottom: 135px;
+  font-size: 0px;
+  overflow: hidden;
 }
 .lifestyle-list-item:nth-child(2n) {
   margin-right: 0px;
 }
+.lifestyle-list-item:nth-last-child(-n +2) {
+  margin-bottom: 0px;
+}
+
 img {
+  display: block;
+  max-width: 100%;
+  height: auto;
   margin-bottom: 30px;
 }
 p.Ubuntu {
-  display: inline;
   font-family: "Ubuntu", "Arial", sans-serif;
   font-size: 14px;
+  line-height: 17px;
   font-weight: 300;
+  color: #b4ad9e;
   text-transform: uppercase;
   margin-top: 0px;
-  margin-bottom: 27px;
+  margin-bottom: 20px;
 }
 .lifestyle-list-item h3 {
   color: #626262;
   font-size: 30px;
+  line-height: 36px;
   margin-top: 0px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
-.lifestyle-list-item p {
+p.about {
+  width: 420px;
+  height: 70px;
   color: #626262;
   font-size: 14px;
-  line-height: 24px;
   margin: 0px;
 }
-.about {
-  width: 420px;
-  height: 63px;
-}
+
 button {
+  list-style: none;
   display: inline-block;
   margin-top: 57px;
   margin-right: 375px;
   margin-bottom: 70px;
   margin-left: 360px;
   padding-left: 33px;
-  padding-top: 26px;
+  padding-top: 20px;
   padding-right: 33px;
   padding-bottom: 20px;
   color: #626262;
   border-color: #626262;
   font-size: 20px;
+  cursor: pointer;
 }
 button:hover,
 button:focus {
