@@ -21,8 +21,8 @@ body {
 
 .main-menu {
   width: 900px;
-  margin-top: 77px;
-  margin-bottom: 104px;
+  margin-top: 72px;
+  margin-bottom: 100px;
   padding-left: 165px;
   padding-right: 165px;
   font-family: "Playfair Display", "Arial", "Times New Roman", sans-serif;
@@ -124,4 +124,5 @@ button {
 button:hover,
 button:focus {
   color: #03a9f4;
+  border-color: #03a9f4;
 }
