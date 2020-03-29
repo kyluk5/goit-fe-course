@@ -6,14 +6,55 @@ html {
 *::after {
   box-sizing: inherit;
 }
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
 .container {
   width: 1110px;
   margin: 0px auto;
 }
 .clearfix: : after {
-display: table;
-content: '';
-clear: both;
+  display: table;
+  content: "";
+  clear: both;
+}
 
+/*header*/
 
-    /*header*/;
+.main-logo {
+  display: inline;
+  font-size: 30px;
+  font-weight: 300;
+  font-family: "Roboto", "Arial", "sans-serif";
+  color: #555252;
+  text-transform: uppercase;
+  text-decoration: none;
+  line-height: 32px;
+}
+.main-menu {
+  float: right;
+  width: 475px;
+  height: auto;
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+.main-menu li {
+  margin-right: 20px;
+  float: left;
+}
+.main-menu a {
+  font-size: 14px;
+  font-weight: 700px;
+  font-family: "Open Sans", "Time New Roman", "sans-serif";
+  color: #0f0101;
+  text-transform: uppercase;
+  text-decoration: none;
+  line-height: 11px;
+}
+.main-navigation a:hover,
+.main-navigation a:focus {
+  color: #1abc9c;
+}
