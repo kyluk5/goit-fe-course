@@ -16,7 +16,7 @@ img {
   width: 1110px;
   margin: 0px auto;
 }
-.clearfix: : after {
+.clearfix::after {
   display: table;
   content: "";
   clear: both;
