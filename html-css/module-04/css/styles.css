@@ -38,7 +38,7 @@ h2::after {
   width: 164px;
   height: 7px;
   background-color: #1abc9c;
-  content: '';
+  content: "";
   margin-top: 32px;
   margin-left: auto;
   margin-right: auto;
@@ -104,9 +104,13 @@ h2::after {
 
 /*featured-products*/
 
+.featured-products {
+  margin-bottom: 106px;
+  
+}
 .products-list {
   list-style: none;
-  margin-bottom: 106px;
+  margin: 0px;
   padding: 0px;
   font-size: 0px;
 }
@@ -132,7 +136,7 @@ h2::after {
   line-height: 32px;
   font-family: "Roboto", "Ubuntu", "sans-serif";
   color: #ffffff;
-  font-weight: 800;
+  font-weight: 900px;
   text-transform: uppercase;
   text-decoration: none;
   margin: 0px;
@@ -149,9 +153,72 @@ h2::after {
   line-height: 32px;
   font-family: "Roboto", "Ubuntu", "sans-serif";
   color: #ffffff;
-  font-weight: 800;
+  font-weight: 900;
   margin: 0px;
   padding-top: 7px;
   padding-bottom: 6px;
   background-color: #8c8c8c;
+}
+
+/*latest-news*/
+
+.news-list {
+  list-style: none;
+  margin-bottom: 80px;
+  padding: 0px;
+  font-size: 0px;
+}
+.news-list-item {
+  float: left;
+  width: 350px;
+  margin-right: 30px;
+}
+.news-list-item img {
+  margin-bottom: 11px;
+}
+.news-list-item:last-child {
+  margin-right: 0px;
+}
+h3 {
+  margin-top: 0px;
+  margin-bottom: 24px;
+  padding: 0px;
+  font-size: 18px;
+  line-height: 26px;
+  font-family: "Open Sans", "Arial", "sans-serif";
+  font-weight: 600;
+  color: #555252;
+}
+h3::after {
+  display: table;
+  width: 136px;
+  height: 3px;
+  background-color: #1abc9c;
+  content: "";
+  margin-top: 11px;
+}
+.details {
+  font-size: 14px;
+  line-height: 26px;
+  font-family: "Open Sans", "Arial", "sans-serif";
+  font-weight: 400px;
+  color: #555252;
+  margin-top: 0px;
+  margin-bottom: 13px;
+  padding: 0px;
+}
+button {
+  width: 159px;
+  height: 51px;
+  background-color: #4ec6ab;
+  font-size: 16px;
+  line-height: 26px;
+  font-family: "Open Sans", "Arial", "sans-serif";
+  font-weight: 300px;
+  color: #ffffff;
+  text-transform: capitalize ;
+  border-radius: 3px;
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.39);
+  margin: 0px;
+  padding: 0px;
 }
