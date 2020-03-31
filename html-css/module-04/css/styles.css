@@ -21,15 +21,37 @@ img {
   content: "";
   clear: both;
 }
+h2 {
+  text-align: center;
+  font-size: 48px;
+  line-height: 32px;
+  font-weight: 800;
+  font-family: "Roboto", "Ubuntu", "sans-serif";
+  color: #515151;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin: 0px;
+  padding-bottom: 92px;
+}
+h2::after {
+  display: table;
+  width: 164px;
+  height: 7px;
+  background-color: #1abc9c;
+  content: '';
+  margin-top: 32px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 /*header*/
 
 .main-navigation {
   padding-top: 38px;
-  padding-bottom: 110px;
+  padding-bottom: 105px;
 }
 .main-logo {
-  display: inline;
+  float: left;
   font-size: 30px;
   font-weight: 300;
   font-family: "Roboto", "Arial", "sans-serif";
@@ -38,6 +60,9 @@ img {
   line-height: 32px;
   margin: 0px;
   padding: 0px;
+}
+.main-logo::first-letter {
+  color: #1abc9c;
 }
 .main-logo::first-letter {
   color: #1abc9c;
@@ -78,22 +103,12 @@ img {
 /*main*/
 
 /*featured-products*/
-h2 {
-  text-align: center;
-  font-size: 48px;
-  line-height: 32px;
-  font-weight: 800;
-  font-family: "Roboto", "Ubuntu", "sans-serif";
-  color: #515151;
-  text-transform: uppercase;
-  text-decoration: none;
-  margin: 0px;
-  padding: 0px;
-}
+
 .products-list {
   list-style: none;
-  margin: 0px;
+  margin-bottom: 106px;
   padding: 0px;
+  font-size: 0px;
 }
 .products-list-item {
   float: left;
@@ -106,6 +121,9 @@ h2 {
 }
 .products-list-item:nth-child(4n) {
   margin-right: 0px;
+}
+.products-list-item:nth-last-child(-n + 4) {
+  margin-bottom: 0px;
 }
 .name-product {
   float: left;
@@ -132,7 +150,8 @@ h2 {
   font-family: "Roboto", "Ubuntu", "sans-serif";
   color: #ffffff;
   font-weight: 800;
-margin: 0px;
-  padding: 0px;
+  margin: 0px;
+  padding-top: 7px;
+  padding-bottom: 6px;
   background-color: #8c8c8c;
 }
