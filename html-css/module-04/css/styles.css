@@ -90,7 +90,6 @@ h2::after {
 .main-navigation a:hover,
 .main-navigation a:focus {
   color: #1abc9c;
-  border-color: #1abc9c;
 }
 
 /*main*/
@@ -110,16 +109,23 @@ h2::after {
   float: left;
   display: table;
   width: 255px;
-  height: 322px;
+  height: 320px;
   margin-right: 30px;
   margin-bottom: 30px;
   background-color: #e9f0fd;
+  cursor: pointer;
 }
 .products-list-item:nth-child(4n) {
   margin-right: 0px;
 }
 .products-list-item:nth-last-child(-n + 4) {
   margin-bottom: 0px;
+}
+.products-list-item:hover .name-product {
+  background-color: #1abc9c;
+}
+.products-list-item:hover .price {
+  background-color: #7fd9c7;
 }
 .name-product {
   display: inline-block;
@@ -133,7 +139,7 @@ h2::after {
   text-transform: uppercase;
   text-decoration: none;
   margin: 0px;
-  padding-top: 7px;
+  padding-top: 6px;
   padding-bottom: 6px;
   padding-left: 13px;
   background-color: #323232;
