@@ -20,6 +20,10 @@ img {
   content: "";
   clear: both;
 }
+.section {
+  margin-top: 25px;
+  margin-bottom: 80px;
+}
 .names {
   text-align: center;
   font-size: 48px;
@@ -45,8 +49,8 @@ img {
 /*header*/
 
 .main-navigation {
-  padding-top: 38px;
-  padding-bottom: 105px;
+  padding-top: 36px;
+  padding-bottom: 80px;
 }
 .main-logo {
   float: left;
@@ -168,9 +172,8 @@ img {
 
 .news-list {
   list-style: none;
-  margin-bottom: 80px;
+  margin: 0px;
   padding: 0px;
-  font-size: 0px;
 }
 .news-list-item {
   float: left;
