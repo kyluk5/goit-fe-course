@@ -20,7 +20,7 @@ img {
   content: "";
   clear: both;
 }
-h2 {
+.names {
   text-align: center;
   font-size: 48px;
   line-height: 32px;
@@ -32,7 +32,7 @@ h2 {
   margin-top: 0px;
   margin-bottom: 92px;
 }
-h2::after {
+.names::after {
   display: table;
   width: 164px;
   height: 7px;
@@ -183,7 +183,7 @@ h2::after {
 .news-list-item:last-child {
   margin-right: 0px;
 }
-h3 {
+.news {
   margin-top: 0px;
   margin-bottom: 24px;
   padding: 0px;
@@ -193,7 +193,7 @@ h3 {
   font-weight: 600;
   color: #555252;
 }
-h3::after {
+.news::after {
   display: table;
   width: 136px;
   height: 3px;
@@ -211,23 +211,23 @@ h3::after {
   margin-bottom: 13px;
   padding: 0px;
 }
-button {
+.read-more {
   display: block;
-  width: 159px;
+  text-decoration: none;
+  text-transform: capitalize;
+  text-align: center;
+  width: 160px;
   height: 51px;
   background-color: #4ec6ab;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 51px;
   font-family: "Open Sans", sans-serif;
   font-weight: 300px;
   color: #ffffff;
-  text-transform: capitalize;
   border-radius: 3px;
   cursor: pointer;
-  margin: 0px;
-  padding: 0px;
 }
-button:hover,
-button:focus {
+.read-more:hover,
+.read-more:focus {
   box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.39);
 }
