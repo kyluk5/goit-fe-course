@@ -25,7 +25,7 @@ h2 {
   font-size: 48px;
   line-height: 32px;
   font-weight: 800;
-  font-family: "Roboto", "Ubuntu", "sans-serif";
+  font-family: "Roboto", sans-serif;
   color: #515151;
   text-transform: uppercase;
   text-decoration: none;
@@ -52,7 +52,7 @@ h2::after {
   float: left;
   font-size: 30px;
   font-weight: 300;
-  font-family: "Roboto", "Arial", "sans-serif";
+  font-family: "Roboto", sans-serif;
   color: #555252;
   text-transform: uppercase;
   line-height: 32px;
@@ -81,7 +81,7 @@ h2::after {
 .main-menu a {
   font-size: 14px;
   font-weight: 700px;
-  font-family: "Open Sans", "Time New Roman", "sans-serif";
+  font-family: "Open Sans", sans-serif;
   color: #0f0101;
   text-transform: uppercase;
   text-decoration: none;
@@ -133,7 +133,7 @@ h2::after {
   height: 40px;
   font-size: 18px;
   line-height: 32px;
-  font-family: "Roboto", "Ubuntu", "sans-serif";
+  font-family: "Roboto", sans-serif;
   color: #ffffff;
   font-weight: 900px;
   text-transform: uppercase;
@@ -150,7 +150,7 @@ h2::after {
   height: 40px;
   font-size: 18px;
   line-height: 32px;
-  font-family: "Roboto", "Ubuntu", "sans-serif";
+  font-family: "Roboto", sans-serif;
   color: #ffffff;
   font-weight: 900;
   margin: 0px;
@@ -184,7 +184,7 @@ h3 {
   padding: 0px;
   font-size: 18px;
   line-height: 26px;
-  font-family: "Open Sans", "Arial", "sans-serif";
+  font-family: "Open Sans", sans-serif;
   font-weight: 600;
   color: #555252;
 }
@@ -199,7 +199,7 @@ h3::after {
 .details {
   font-size: 14px;
   line-height: 26px;
-  font-family: "Open Sans", "Arial", "sans-serif";
+  font-family: "Open Sans", sans-serif;
   font-weight: 400px;
   color: #555252;
   margin-top: 0px;
@@ -213,7 +213,7 @@ button {
   background-color: #4ec6ab;
   font-size: 16px;
   line-height: 26px;
-  font-family: "Open Sans", "Arial", "sans-serif";
+  font-family: "Open Sans", sans-serif;
   font-weight: 300px;
   color: #ffffff;
   text-transform: capitalize;
