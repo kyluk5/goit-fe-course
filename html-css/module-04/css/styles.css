@@ -117,6 +117,9 @@ h2::after {
   background-color: #e9f0fd;
   cursor: pointer;
 }
+.products-list-item a {
+  display: block;
+}
 .products-list-item:nth-child(4n) {
   margin-right: 0px;
 }
