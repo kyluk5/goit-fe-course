@@ -21,8 +21,8 @@ img {
   clear: both;
 }
 .section {
-  margin-top: 25px;
-  margin-bottom: 80px;
+  padding-top: 25px;
+  padding-bottom: 80px;
 }
 .names {
   text-align: center;
