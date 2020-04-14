@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul,
+ol {
+  list-style: none;
+}
+a {
+  display: block;
+  text-decoration: none;
+}
+.container {
+  width: 1110px;
+  margin: 0 auto;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+img {
+  display: block;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+/*HEADER*/
+
+.main-navigation {
+  padding: 40px 0px;
+}
+.site-logo {
+  float: left;
+  font-size: 30px;
+  line-height: 32px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  color: #555252;
+  text-transform: uppercase;
+}
+.site-logo::first-letter {
+  color: #1abc9c;
+  font-weight: 900;
+}
+.navigation-list {
+  float: right;
+  margin-top: 5px;
+}
+.navigation-list-item {
+  float: left;
+}
+.navigation-list-item:not(:last-child) {
+  margin-right: 34px;
+}
+.navigation-list-link {
+  font-size: 14px;
+  font-family: "open Sans", sans-serif;
+  font-weight: 700;
+  color: #0f0101;
+  text-transform: uppercase;
+}
+.navigation-list-link:hover {
+  color: #1abc9c;
+}
+
+/*slider*/
+
+.slider-ctrl {
+  position: absolute;
+  top: 35%;
+  display: inline-block;
+  background-color: rgb(78, 198, 171);
+  opacity: 0.651;
+  width: 104px;
+  height: 104px;
+  border: none;
+}
+.slider-ctrl-prev {
+  left: 0;
+}
+.slider-ctrl-next {
+  right: 0;
+}
+.slides {
+  margin: 0;
+  padding: 0;
+}
+.slider-information {
+  position: absolute;
+  display: inline-block;
+  top: 30%;
+  left: 25%;
+}
+.name-page {
+  font-size: 60px;
+  line-height: 82px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+.page-about {
+  font-size: 24px;
+  line-height: 54px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  color: #ffffff;
+}
+
+/*MAIN*/
+
+.collection {
+  background-color: #e9f0fd;
+  padding-bottom: 100px;
+}
+.name-collection {
+  font-size: 48;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: #515151;
+  padding-top: 100px;
+  text-align: center;
+  margin-bottom: 80px;
+}
+.name-collection::after {
+  display: block;
+  background-color: rgb(26, 188, 156);
+  content: "";
+  width: 164px;
+  height: 7px;
+  margin: 0 auto;
+  margin-top: 32px;
+}
+.collection-list-item {
+  float: left;
+  width: 255px;
+}
+.collection-list-item:not(:last-child) {
+  margin-right: 30px;
+}
+.product-information {
+  font-size: 18px;
+  line-height: 32px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #323232;
+}
+.product-name {
+  display: inline-block;
+}
+.prise {
+  float: right;
+}
+
+/*FOOTER*/
