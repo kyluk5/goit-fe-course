@@ -121,11 +121,14 @@ img {
   color: #ffffff;
 }
 
-/*
+/*MAIN*/
+
 .collection {
   background-color: #e9f0fd;
   padding-top: 100px;
   padding-bottom: 100px;
+  width: 1600px;
+  margin: 0 auto;
 }
 .name-collection {
   font-size: 48;
@@ -167,4 +170,3 @@ img {
 .prise {
   float: right;
 }
-*/
