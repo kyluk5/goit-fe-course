@@ -94,6 +94,9 @@ img {
   float: right;
   background-image: url(../img/header/next.png);
 }
+.slider-ctrl:hover {
+  background-color: #1abc9c;
+}
 .text-slider {
   position: absolute;
   top: 50%;
