@@ -151,12 +151,17 @@ img {
 .collection-list-item {
   float: left;
   width: 255px;
+  cursor: pointer;
+  position: relative;
 }
 .collection-list-item:not(:last-child) {
   margin-right: 30px;
 }
 .collection-list-item:hover .product-information {
-background-color: #1abc9c;
+  background-color: #1abc9c;
+}
+.collection-list-item:hover .overlay {
+  display: block;
 }
 .product-information {
   font-size: 18px;
@@ -181,14 +186,67 @@ background-color: #1abc9c;
   line-height: 40px;
   padding-left: 12px;
 }
-
-.Rectangle_52 {
-  background-color: rgba(255, 255, 255, 0.4);
-  opacity: 0.439;
+.overlay {
+  display: none;
   position: absolute;
-  left: 446px;
-  top: 1227px;
-  width: 54px;
-  height: 40px;
-  z-index: 13;
+  top: 0;
+}
+.overlay-over {
+  border-width: 10px;
+  border-color: rgb(255, 255, 255);
+  border-style: solid;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 255px;
+  height: 280px;
+  position: relative;
+}
+.overlay-list {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 84px;
+}
+.like {
+  margin-right: 4px;
+}
+.arow {
+  margin-right: 4px;
+}
+.overlay-link {
+  display: block;
+  width: 48px;
+  height: 48px;
+  border-width: 1px;
+  border-color: rgb(255, 255, 255);
+  border-style: solid;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.overlay-link:hover {
+  background-color: #1abc9c;
+}
+.icon-like {
+  background-image: url(../img/collection/icon/icon-1.png);
+}
+.icon-arow {
+  background-image: url(../img/collection/icon/icon-2.png);
+}
+.icon-clock {
+  background-image: url(../img/collection/icon/icon-3.png);
+}
+.icon-basket {
+  width: 164px;
+  height: 48px;
+  background-color: rgb(50, 50, 50);
+  background-image: url(../img/collection/icon/icon-4.png);
+  background-position: left;
+}
+.span-basket {
+  font-size: 14px;
+  line-height: 48px;
+  font-weight: 400px;
+  font-family: "Open Sans", sans-serif;
+  color: #ffffff;
+  text-transform: uppercase;
 }
