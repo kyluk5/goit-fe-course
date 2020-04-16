@@ -75,6 +75,7 @@ img {
   width: 1110px;
   top: 50%;
   transform: translateY(-50%);
+  z-index: 1;
 }
 .slider-ctrl {
   display: inline-block;
@@ -104,6 +105,7 @@ img {
   transform: translate(-50%, -50%);
   display: inline-block;
   width: 770px;
+  z-index: 1;
 }
 .name-page {
   font-size: 60px;
@@ -119,6 +121,18 @@ img {
   font-family: "Roboto", sans-serif;
   font-weight: 300;
   color: #ffffff;
+}
+.slides {
+  position: relative;
+}
+.slides-item::before {
+  content: "";
+  left: 50%;
+  transform: translate(-50%);
+  width: 1600px;
+  height: 600px;
+  background-color: rgba(0, 0, 2, 0.5);
+  position: absolute;
 }
 
 /*MAIN*/
@@ -218,7 +232,7 @@ img {
   height: 48px;
   border-width: 1px;
   border-color: rgb(255, 255, 255);
- 
+
   background-color: rgba(0, 0, 0, 0.5);
   background-repeat: no-repeat;
   background-position: center;
@@ -264,7 +278,7 @@ img {
   display: inline-block;
   font-size: 16px;
   line-height: 88px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 400;
   color: #fefefe;
 }
@@ -272,7 +286,7 @@ img {
   display: inline-block;
   font-size: 16px;
   line-height: 88px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 400;
   color: #46bfa9;
 }
