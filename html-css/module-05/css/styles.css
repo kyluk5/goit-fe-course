@@ -66,6 +66,7 @@ img {
 }
 
 /*slider*/
+
 .slider {
   position: relative;
   height: 600px;
@@ -200,6 +201,9 @@ img {
   line-height: 40px;
   padding-left: 12px;
 }
+
+/*overlay*/
+
 .overlay {
   display: none;
   position: absolute;
@@ -219,6 +223,8 @@ img {
   left: 50%;
   transform: translateX(-50%);
   bottom: 84px;
+  width: 166px;
+  height: 106px;
 }
 .like {
   margin-right: 4px;
@@ -227,12 +233,11 @@ img {
   margin-right: 4px;
 }
 .overlay-link {
-  display: block;
+  display: inline-block;
   width: 48px;
   height: 48px;
   border-width: 1px;
   border-color: rgb(255, 255, 255);
-
   background-color: rgba(0, 0, 0, 0.5);
   background-repeat: no-repeat;
   background-position: center;
@@ -259,7 +264,7 @@ img {
 .span-basket {
   font-size: 14px;
   line-height: 48px;
-  font-weight: 400px;
+  font-weight: 400;
   font-family: "Open Sans", sans-serif;
   color: #ffffff;
   text-transform: uppercase;
