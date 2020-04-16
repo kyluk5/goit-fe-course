@@ -279,7 +279,10 @@ img {
   width: 1600px;
   height: 88px;
 }
-
+.contact-information-item {
+  width: 412px;
+  margin: 0 auto;
+}
 .contact-information {
   display: inline-block;
   font-size: 16px;
