@@ -8,7 +8,6 @@ ol {
   list-style: none;
 }
 a {
-  display: block;
   text-decoration: none;
 }
 .container {
@@ -146,7 +145,7 @@ img {
   margin: 0 auto;
 }
 .name-collection {
-  font-size: 48;
+  font-size: 48px;
   font-family: "Roboto", sans-serif;
   font-weight: 900;
   text-transform: uppercase;
@@ -273,18 +272,12 @@ img {
 
 /*FOOTER*/
 
-.designed {
+.main-footer {
   background-color: #323232;
-  margin: 0 auto;
-  width: 1600px;
-  height: 88px;
-}
-.contact-information-item {
-  width: 412px;
-  margin: 0 auto;
+  width: 100%;
+  text-align: center;
 }
 .contact-information {
-  display: inline-block;
   font-size: 16px;
   line-height: 88px;
   font-family: "Open Sans", sans-serif;
@@ -292,10 +285,5 @@ img {
   color: #fefefe;
 }
 .link-contact {
-  display: inline-block;
-  font-size: 16px;
-  line-height: 88px;
-  font-family: "Open Sans", sans-serif;
-  font-weight: 400;
   color: #46bfa9;
 }
