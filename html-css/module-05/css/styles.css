@@ -205,17 +205,14 @@ img {
 
 .overlay {
   display: none;
-  position: absolute;
-  top: 0;
-}
-.overlay-over {
   border-width: 10px;
   border-color: rgb(255, 255, 255);
   border-style: solid;
   background-color: rgba(0, 0, 0, 0.5);
   width: 255px;
   height: 280px;
-  position: relative;
+  position: absolute;
+  top: 0;
 }
 .overlay-list {
   position: absolute;
