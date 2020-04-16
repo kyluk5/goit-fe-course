@@ -122,9 +122,6 @@ img {
   font-weight: 300;
   color: #ffffff;
 }
-.slides {
-  position: relative;
-}
 .slides-item::before {
   content: "";
   left: 50%;
@@ -198,7 +195,7 @@ img {
   width: 55px;
   height: 40px;
   line-height: 40px;
-  padding-left: 12px;
+  text-align: center;
 }
 
 /*overlay*/
@@ -206,13 +203,14 @@ img {
 .overlay {
   display: none;
   border-width: 10px;
-  border-color: rgb(255, 255, 255);
+  border-color: rgba(255, 255, 255, 0.5);
   border-style: solid;
   background-color: rgba(0, 0, 0, 0.5);
   width: 255px;
   height: 280px;
   position: absolute;
   top: 0;
+  background-clip: border-box;
 }
 .overlay-list {
   position: absolute;
