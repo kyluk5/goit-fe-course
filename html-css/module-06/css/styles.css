@@ -79,6 +79,24 @@ img {
 .services-list-item {
   width: 380px;
 }
+.alarm {
+  background-image: url(../img/services/ALARM.png);
+}
+.graph {
+  background-image: url(../img/services/GRAPH.png);
+}
+.computer {
+  background-image: url(../img/services/COMPUTER.png);
+}
+.book {
+  background-image: url(../img/services/book.png);
+}
+.home {
+  background-image: url(../img/services/HOME.png);
+}
+.image {
+  background-image: url(../img/services/IMAGE.png);
+}
 .services-name {
   font-size: 14px;
   line-height: 1.2;
