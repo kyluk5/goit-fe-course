@@ -26,6 +26,9 @@ img {
 
 /* HEADER */
 
+.main-header {
+  padding-bottom: 136px;
+}
 .main-navigation {
   display: flex;
   justify-content: space-between;
@@ -54,19 +57,21 @@ img {
 
 /* MAIN */
 
-.title-style {
+.section-title {
   font-size: 24px;
   line-height: 1.2;
   font-family: "Kaushan Script", serif;
   font-weight: 400;
   color: #333333;
+  text-align: center;
 }
-.section-title {
+.title-style {
   font-size: 30px;
   line-height: 1.2;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   color: #333333;
+  text-transform: uppercase;
 }
 
 /* services */
@@ -78,6 +83,8 @@ img {
 }
 .services-list-item {
   width: 380px;
+  background-color: transparent;
+  background-repeat: no-repeat;
 }
 .alarm {
   background-image: url(../img/services/ALARM.png);
