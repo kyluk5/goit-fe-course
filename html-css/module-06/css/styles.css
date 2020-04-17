@@ -15,12 +15,41 @@ img {
   max-width: 100%;
   margin: 0 auto;
 }
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+/* .clearfix::after {
+  content: "";
+  clear: both;
+  display: table; */
 
 /* HEADER */
-.main-logo {
+
+.main-navigation {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 40px;
+}
+.navigation-list {
+  display: flex;
+  align-items: center;
+}
+.main-logo-link {
   font-size: 30px;
   line-height: 1.2;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   color: #95e1d3;
 }
+.navigation-list-link {
+  font-size: 14px;
+  line-height: 1.2;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  color: #95e1d3;
+  text-transform: uppercase;
+  margin-right: 56px;
+}
+
+/* MAIN */
