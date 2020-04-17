@@ -53,3 +53,122 @@ img {
 }
 
 /* MAIN */
+
+.title-style {
+  font-size: 24px;
+  line-height: 1.2;
+  font-family: "Kaushan Script", serif;
+  font-weight: 400;
+  color: #333333;
+}
+.section-title {
+  font-size: 30px;
+  line-height: 1.2;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: #333333;
+}
+
+/* services */
+
+.services-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.services-list-item {
+  width: 380px;
+}
+.services-name {
+  font-size: 14px;
+  line-height: 1.2;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  color: #333333;
+  text-transform: uppercase;
+}
+.about-services {
+  font-size: 15px;
+  line-height: 24px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: #999999;
+}
+
+/* team */
+
+.about-team {
+  font-size: 15px;
+  line-height: 24px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: #999999;
+  width: 980px;
+  margin: 0 auto;
+  text-align: center;
+}
+.our-team {
+  display: flex;
+  justify-content: space-between;
+}
+.team-name {
+  font-size: 14px;
+  line-height: 1.2;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  color: #333333;
+  text-transform: uppercase;
+}
+.profession {
+  font-size: 15px;
+  line-height: 24px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  color: #999999;
+}
+
+/* footer */
+
+.footer-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.designed {
+  font-size: 14px;
+  line-height: 1.2;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  color: #333333;
+}
+.designed-link {
+  font-size: 14px;
+  line-height: 1.2;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  color: #f38181;
+}
+.subscribe-form {
+  display: flex;
+}
+.subscribe-form__input {
+  font-size: 15px;
+  line-height: 24px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  color: #cccccc;
+  font-style: italic;
+  width: 230px;
+  height: 40px;
+}
+.subscribe-form__btn {
+  font-size: 14px;
+  line-height: 1.2;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: #ffffff;
+  text-transform: uppercase;
+  background-color: rgb(149, 225, 211);
+  width: 150px;
+  height: 40px;
+}
