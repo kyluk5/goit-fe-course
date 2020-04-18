@@ -186,6 +186,7 @@ img {
   opacity: 0;
 }
 .overlay:hover {
+  transform: translate(-10px, -10px);
   opacity: 1;
 }
 .social-link {
