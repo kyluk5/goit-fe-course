@@ -166,6 +166,9 @@ img {
   position: relative;
   width: 380px;
 }
+
+/* overlay */
+
 .overlay {
   display: flex;
   justify-content: center;
@@ -182,6 +185,9 @@ height: 56px;
 background-color: #fce38a;
 background-repeat: no-repeat;
 background-position: center;
+}
+.social-link:hover {
+  background-color: #95e1d3;
 }
 .facebook {
   background-image: url(../img/team/icon/facebook.png);
