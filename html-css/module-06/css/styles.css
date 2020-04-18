@@ -97,6 +97,11 @@ img {
   width: 380px;
   background-color: transparent;
   background-repeat: no-repeat;
+  margin-bottom: 100px;
+}
+.services-information {
+  width: 300px;
+  margin-left: 80px;
 }
 .alarm {
   background-image: url(../img/services/ALARM.png);
