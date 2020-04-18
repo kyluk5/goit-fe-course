@@ -38,6 +38,9 @@ img {
   display: flex;
   align-items: center;
 }
+.navigation-list-item:not(:last-child) {
+  margin-right: 56px;
+}
 .main-logo-link {
   font-size: 30px;
   line-height: 1.2;
@@ -52,7 +55,17 @@ img {
   font-weight: 400;
   color: #95e1d3;
   text-transform: uppercase;
-  margin-right: 56px;
+}
+/* .navigation-list-link::after {
+  display: block;
+  content: "";
+  width: 50px;
+  height: 3px;
+  background-color: #f38181;
+  margin: 10px auto 0px;
+} */
+.navigation-list-link:hover {
+  color: #f38181;
 }
 
 /* MAIN */
