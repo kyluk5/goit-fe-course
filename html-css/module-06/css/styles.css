@@ -312,4 +312,8 @@ img {
   width: 150px;
   height: 40px;
   border: none;
+  transition: background-color 200ms linear;
+}
+.subscribe-form__btn:hover {
+  background-color: #f38181;
 }
