@@ -182,7 +182,6 @@ img {
 .element::after {
   display: block;
   content: "";
-  width: 1200px;
   height: 1px;
   background-color: rgb(229, 229, 229);
 }
