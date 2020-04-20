@@ -19,10 +19,6 @@ img {
   width: 1200px;
   margin: 0 auto;
 }
-/* .clearfix::after {
-  content: "";
-  clear: both;
-  display: table; */
 
 /* HEADER */
 
@@ -189,6 +185,13 @@ img {
   position: relative;
   width: 380px;
 }
+.our-team-item:hover .team-content {
+  transform: translate(-10px, -10px);
+  transition: all 200ms linear;
+}
+.our-team-item:hover .overlay {
+  opacity: 1;
+}
 
 /* overlay */
 
@@ -208,10 +211,6 @@ img {
   box-shadow: 10px 10px 0px 0px #95e1d3;
   opacity: 0;
   transition: all 200ms linear;
-}
-.overlay:hover {
-  transform: translate(-10px, -10px);
-  opacity: 1;
 }
 .social-link {
   display: block;
