@@ -69,7 +69,43 @@
         <div class="container">
           <h2 class="section-title contact-title">Contact us</h2>
           <p class="about-section">Proin iaculis purus consequat sem cure.</p>
-          <form action="#" class="contact-us"></form>
+          <form action="#" class="contact-us">
+            <div class="content-information">
+              <div class="contact-input">
+                <input
+                  type="text"
+                  class="contact-form-input"
+                  name="user-name"
+                  placeholder="your name *"
+                  required
+                  minlength="2"
+                />
+                <input
+                  type="email"
+                  class="contact-form-input"
+                  name="user-email"
+                  placeholder="your e-mail *"
+                  required
+                />
+                <input
+                  type="text"
+                  class="contact-form-input"
+                  name="subject"
+                  placeholder="subject"
+                  required
+                  minlength="3"
+                />
+              </div>
+              <div class="contact-form-block">
+                <textarea
+                  name="message"
+                  class="textarea-message"
+                  placeholder="Your message *"
+                ></textarea>
+              </div>
+            </div>
+            <button type="submit" class="send-message">send message</button>
+          </form>
         </div>
       </section>
     </main>
