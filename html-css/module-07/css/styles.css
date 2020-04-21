@@ -107,6 +107,7 @@ img {
   font-weight: 400;
   color: #222222;
   transition: all 200ms linear;
+  text-transform: uppercase;
 }
 .main-navigation-link:hover {
   color: #fed136;
