@@ -133,7 +133,7 @@ img {
   background-image: url(../img/services/COMPUTER.png);
 }
 .book {
-  background-image: url(../img/services/book.png);
+  background-image: url(../img/services/BOOK.png);
 }
 .home {
   background-image: url(../img/services/HOME.png);
@@ -260,9 +260,9 @@ img {
   display: block;
   content: "";
   height: 1px;
-  width: 100%;
+  width: 1200px;
   background-color: rgb(229, 229, 229);
-  margin-bottom: 10px;
+  margin: 0 auto 10px;
 }
 .footer-info {
   display: flex;
@@ -292,7 +292,7 @@ img {
   line-height: 24px;
   font-family: "Roboto", sans-serif;
   font-weight: 300;
-  color: rgb(204, 204, 204);
+  /* color: rgb(204, 204, 204); */
   font-style: italic;
   width: 230px;
   height: 40px;
