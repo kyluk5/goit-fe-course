@@ -58,6 +58,7 @@
     /* Chrome 26+, Opera 23+, Firefox 39+ */
       url("../fonts/roboto-slab-v11-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
+
 * {
   margin: 0;
   padding: 0;
@@ -76,8 +77,82 @@ img {
   margin: 0 auto;
 }
 .container {
-  width: ;
+  width: 940px;
   margin: 0 auto;
 }
 
 /* HEADER */
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding-top: 50px;
+}
+.main-navigation {
+  display: flex;
+}
+.main-navigation-item:not(:last-child) {
+  margin-right: 40px;
+}
+.main-logo {
+  font-size: 26px;
+  font-family: "Kaushan Script", sans-serif;
+  font-weight: 400;
+  color: #fed136;
+  letter-spacing: 50;
+}
+.main-navigation-link {
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  color: #222222;
+  transition: all 200ms linear;
+}
+.main-navigation-link:hover {
+  color: #fed136;
+}
+
+/* MAIN */
+
+.services {
+  padding: 122px 0 122px;
+}
+.section-title {
+  font-size: 40px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: #222222;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.about-section {
+  font-size: 16px;
+  font-family: "Mate", sans-serif;
+  color: rgb(119, 119, 119);
+  text-align: center;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.services-list {
+  display: flex;
+  justify-content: space-between;
+}
+.services-item {
+  width: 290px;
+}
+.services-name {
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: #222222;
+  text-align: center;
+}
+.about-services {
+  font-size: 14px;
+  font-family: "Roboto Slab", sans-serif;
+  color: rgb(119, 119, 119);
+  line-height: 1.2;
+  text-align: center;
+  padding-bottom: 120px;
+}
