@@ -292,7 +292,6 @@ img {
   line-height: 24px;
   font-family: "Roboto", sans-serif;
   font-weight: 300;
-  /* color: rgb(204, 204, 204); */
   font-style: italic;
   width: 230px;
   height: 40px;
@@ -313,4 +312,7 @@ img {
 }
 .subscribe-form__btn:hover {
   background-color: #f38181;
+}
+::placeholder {
+  color: rgb(204, 204, 204);
 }
