@@ -62,6 +62,7 @@ img {
 .container {
   width: 290px;
   height: auto;
+  margin: 0 auto;
 }
 
 /* HEADER */
@@ -151,6 +152,133 @@ img {
   padding-bottom: 116px;
 }
 .navigation-button-list {
+  margin: 0 auto;
+}
+
+/* MAIN */
+
+.partner {
+  padding: 70px 0px 56px;
+}
+.meet-partner {
+  font-size: 22px;
+  font-family: "Montserrat";
+  color: rgb(51, 51, 51);
+  line-height: 1.2;
+  font-family: 700;
+  text-align: center;
+  padding-bottom: 16px;
+}
+.partner-img {
+  width: 122px;
+  height: 122px;
+  border-radius: 50%;
+  margin: 0 auto 22px;
+  position: relative;
+}
+.hunter {
+  background-image: url(../img/mb/icon-1.jpg);
+}
+.hunter::before {
+  display: block;
+  content: "";
+  border-style: solid;
+  border-width: 4px;
+  border-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  background-color: rgb(255, 78, 80);
+  position: absolute;
+  width: 37px;
+  height: 37px;
+  background-image: url(../img/mb/tv.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.marsha {
+  background-image: url(../img/mb/icon-2.jpg);
+}
+.marsha::before {
+  display: block;
+  content: "";
+  border-style: solid;
+  border-width: 4px;
+  border-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  background-color: rgb(255, 165, 7);
+  position: absolute;
+  width: 37px;
+  height: 37px;
+  background-image: url(../img/mb/flask.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.walker {
+  background-image: url(../img/mb/icon-3.jpg);
+}
+.walker::before {
+  display: block;
+  content: "";
+  border-style: solid;
+  border-width: 4px;
+  border-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  background-color: rgb(28, 215, 173);
+  position: absolute;
+  width: 37px;
+  height: 37px;
+  background-image: url(../img/mb/coffe.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.bradley {
+  background-image: url(../img/mb/icon-4.jpg);
+}
+.bradley::before {
+  display: block;
+  content: "";
+  border-style: solid;
+  border-width: 4px;
+  border-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  background-color: rgb(78, 115, 219);
+  position: absolute;
+  width: 37px;
+  height: 37px;
+  background-image: url(../img/mb/telegram.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.partner-name {
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  color: rgb(51, 51, 51);
+  font-weight: 700;
+  line-height: 1.2;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.about-partner {
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  color: rgb(102, 102, 102);
+  line-height: 1.2;
+  text-align: center;
+  font-weight: 300;
+  padding-bottom: 30px;
+}
+.other-partners {
+  display: block;
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  color: rgb(255, 78, 80);
+  font-weight: bold;
+  line-height: 36px;
+  text-align: center;
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(255, 78, 80);
+  border-radius: 20px;
+  width: 284px;
   margin: 0 auto;
 }
 
