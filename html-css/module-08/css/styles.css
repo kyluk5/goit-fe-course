@@ -59,7 +59,6 @@ img {
   max-width: 100%;
   margin: 0 auto;
 }
-/* @media (min-width: 320px) and (max-width: 767px) { */
 .container {
   width: 290px;
   height: auto;
@@ -153,12 +152,12 @@ img {
   margin: 0 auto;
 }
 
-/* header-tb */
-
 @media (min-width: 768px) and (max-width: 939px) {
   .container {
     width: 660px;
   }
+  /* header-tb */
+
   .main-header {
     background-image: url(../img/tb/Vector_tb.jpg);
   }
@@ -189,12 +188,12 @@ img {
   }
 }
 
-/* header-pc */
-
 @media (min-width: 940px) {
   .container {
     width: 940px;
   }
+  /* header-pc */
+
   .main-header {
     background-image: url(../img/pc/Vector_pc.jpg);
   }
