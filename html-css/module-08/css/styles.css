@@ -71,6 +71,7 @@ img {
     background-image: url(../img/mb/Vector_mb.jpg);
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
   }
   .header-content {
     padding: 34px 0 138px 0;
