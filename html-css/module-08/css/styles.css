@@ -59,89 +59,132 @@ img {
   max-width: 100%;
   margin: 0 auto;
 }
-@media (min-width: 320px) and (max-width: 767px) {
-  .container {
-    width: 290px;
-    height: auto;
-  }
+/* @media (min-width: 320px) and (max-width: 767px) { */
+.container {
+  width: 290px;
+  height: auto;
+}
 
-  /* HEADER */
+/* HEADER */
+
+.main-header {
+  background-image: url(../img/mb/Vector_mb.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.header-content {
+  padding: 34px 0 138px 0;
+  margin: 0 auto;
+}
+.main-logo {
+  display: none;
+  font-size: 20px;
+  line-height: 1.2;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: #ffffff;
+}
+.main-logo-mobile {
+  display: block;
+  text-align: center;
+  padding-bottom: 34px;
+  font-size: 20px;
+  line-height: 1.2;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: #ffffff;
+}
+.navigation-button {
+  font-size: 14px;
+  line-height: 1.2;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: #ffffff;
+  width: 94px;
+  height: 40px;
+}
+.navigation-button:focus,
+.navigation-button:hover {
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(255, 255, 255);
+  background-color: transparent;
+  border-radius: 20px;
+  outline: none;
+}
+.share-your-dream {
+  font-size: 30px;
+  line-height: 1.2;
+  font-family: "Montserran", sans-serif;
+  font-weight: 700;
+  color: #ffffff;
+  text-align: center;
+  text-transform: uppercase;
+  padding-bottom: 18px;
+}
+.about-dream {
+  font-size: 18px;
+  line-height: 1.2;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  color: #ffffff;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.dream-link {
+  display: block;
+  font-size: 14px;
+  line-height: 40px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: #ffffff;
+  border-radius: 20px;
+  background-color: rgb(255, 78, 80);
+  width: 280px;
+  margin: 0 auto;
+  text-align: center;
+}
+.main-navigation {
+  display: flex;
+  padding-bottom: 116px;
+}
+.navigation-button-list {
+  margin: 0 auto;
+}
+/* } */
+@media (min-width: 768px) and (max-width: 939px) {
+  .container {
+    width: 660px;
+  }
+  /* header-tb */
 
   .main-header {
-    background-image: url(../img/mb/Vector_mb.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    background-image: url(../img/tb/Vector_tb.jpg);
   }
   .header-content {
-    padding: 34px 0 138px 0;
-    margin: 0 auto;
+    padding: 38px 0 234px 0;
   }
-  .main-logo {
-    font-size: 20px;
-    line-height: 1.2;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 700;
-    color: #ffffff;
-  }
-  .mobile {
+  .main-logo-mobile {
     display: none;
   }
-  .navigation-button {
-    font-size: 14px;
-    line-height: 1.2;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 700;
-    color: #ffffff;
-    width: 94px;
-    height: 40px;
-  }
-  .navigation-button:focus,
-  .navigation-button:hover {
-    border-style: solid;
-    border-width: 2px;
-    border-color: rgb(255, 255, 255);
-    background-color: transparent;
-    border-radius: 20px;
-    outline: none;
-  }
-  .share-your-dream {
-    font-size: 30px;
-    line-height: 1.2;
-    font-family: "Montserran", sans-serif;
-    font-weight: 700;
-    color: #ffffff;
-    text-align: center;
-    text-transform: uppercase;
-    padding-bottom: 18px;
-  }
-  .about-dream {
-    font-size: 18px;
-    line-height: 1.2;
-    font-family: "Roboto", sans-serif;
-    font-weight: 300;
-    color: #ffffff;
-    text-align: center;
-    padding-bottom: 20px;
-  }
-  .dream-link {
+  .main-logo {
     display: block;
-    font-size: 14px;
-    line-height: 40px;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 700;
-    color: #ffffff;
-    border-radius: 20px;
-    background-color: rgb(255, 78, 80);
-    width: 280px;
-    margin: 0 auto;
-    text-align: center;
   }
   .main-navigation {
-    display: flex;
-    padding-bottom: 130px;
+    justify-content: space-between;
+    align-items: baseline;
+    padding-bottom: 146px;
   }
   .navigation-button-list {
-    margin: 0 auto;
+    margin: 0;
+  }
+  .share-your-dream {
+    font-size: 52px;
+    padding-bottom: 38px;
+  }
+  .about-dream {
+    font-size: 24px;
+    padding-bottom: 36px;
   }
 }
