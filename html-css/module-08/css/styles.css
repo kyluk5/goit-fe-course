@@ -102,6 +102,8 @@ img {
   color: #ffffff;
   width: 94px;
   height: 40px;
+  background-color: transparent;
+  border: none;
 }
 .navigation-button:focus,
 .navigation-button:hover {
