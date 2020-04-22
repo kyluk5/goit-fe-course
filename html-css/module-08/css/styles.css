@@ -62,7 +62,7 @@ img {
 @media (min-width: 320px) and (max-width: 767px) {
   .container {
     width: 290px;
-    margin: 0 auto;
+    height: auto;
   }
 
   /* HEADER */
@@ -75,14 +75,17 @@ img {
   }
   .header-content {
     padding: 34px 0 138px 0;
+    margin: 0 auto;
   }
   .main-logo {
-    display: none;
     font-size: 20px;
     line-height: 1.2;
     font-family: "Montserrat", sans-serif;
     font-weight: 700;
     color: #ffffff;
+  }
+  .mobile {
+    display: none;
   }
   .navigation-button {
     font-size: 14px;
@@ -90,9 +93,17 @@ img {
     font-family: "Montserrat", sans-serif;
     font-weight: 700;
     color: #ffffff;
+    width: 94px;
+    height: 40px;
   }
-  .navigation-button:nth-child(1) {
-    margin-right: 38px;
+  .navigation-button:focus,
+  .navigation-button:hover {
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(255, 255, 255);
+    background-color: transparent;
+    border-radius: 20px;
+    outline: none;
   }
   .share-your-dream {
     font-size: 30px;
