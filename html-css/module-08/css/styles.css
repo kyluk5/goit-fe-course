@@ -152,18 +152,51 @@ img {
 .navigation-button-list {
   margin: 0 auto;
 }
-/* } */
+
+/* header-tb */
+
 @media (min-width: 768px) and (max-width: 939px) {
   .container {
     width: 660px;
   }
-  /* header-tb */
-
   .main-header {
     background-image: url(../img/tb/Vector_tb.jpg);
   }
   .header-content {
     padding: 38px 0 234px 0;
+  }
+  .main-logo-mobile {
+    display: none;
+  }
+  .main-logo {
+    display: block;
+  }
+  .main-navigation {
+    justify-content: space-between;
+    align-items: baseline;
+    padding-bottom: 146px;
+  }
+  .navigation-button-list {
+    margin: 0;
+  }
+  .share-your-dream {
+    font-size: 52px;
+    padding-bottom: 38px;
+  }
+  .about-dream {
+    font-size: 24px;
+    padding-bottom: 36px;
+  }
+}
+
+/* header-pc */
+
+@media (min-width: 940px) {
+  .container {
+    width: 940px;
+  }
+  .main-header {
+    background-image: url(../img/pc/Vector_pc.jpg);
   }
   .main-logo-mobile {
     display: none;
