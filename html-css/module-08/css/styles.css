@@ -193,6 +193,7 @@ img {
   background-image: url(../img/mb/tv.png);
   background-repeat: no-repeat;
   background-position: center;
+  transform: translate(80px, 80px);
 }
 .marsha {
   background-image: url(../img/mb/icon-2.jpg);
@@ -211,6 +212,7 @@ img {
   background-image: url(../img/mb/flask.png);
   background-repeat: no-repeat;
   background-position: center;
+  transform: translate(80px, 80px);
 }
 .walker {
   background-image: url(../img/mb/icon-3.jpg);
@@ -229,6 +231,7 @@ img {
   background-image: url(../img/mb/coffe.png);
   background-repeat: no-repeat;
   background-position: center;
+  transform: translate(80px, 80px);
 }
 .bradley {
   background-image: url(../img/mb/icon-4.jpg);
@@ -247,6 +250,7 @@ img {
   background-image: url(../img/mb/telegram.png);
   background-repeat: no-repeat;
   background-position: center;
+  transform: translate(80px, 80px);
 }
 .partner-name {
   font-size: 14px;
