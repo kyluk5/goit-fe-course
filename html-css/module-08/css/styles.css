@@ -286,7 +286,7 @@ img {
   margin: 0 auto;
 }
 
-@media (min-width: 768px) and (max-width: 939px) {
+@media (min-width: 768px) {
   .container {
     width: 660px;
   }
@@ -320,9 +320,19 @@ img {
     font-size: 24px;
     padding-bottom: 36px;
   }
+  /* main-tb */
+
+  .partner-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .partner-list-item {
+    width: 35%;
+  }
 }
 
-@media (min-width: 940px) {
+@media (min-width: 980px) {
   .container {
     width: 940px;
   }
@@ -352,5 +362,15 @@ img {
   .about-dream {
     font-size: 24px;
     padding-bottom: 36px;
+  }
+  /* main-pc */
+
+  .partner-list {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+  .partner-list-item {
+    width: 23%;
   }
 }
