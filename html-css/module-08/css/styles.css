@@ -172,7 +172,7 @@ img {
 .partner-list {
   margin-bottom: 28px;
 }
-@media (max-width 767px) {
+@media (max-width: 767px) {
   .partner-list-item:not(:last-child) {
     margin-bottom: 30px;
   }
