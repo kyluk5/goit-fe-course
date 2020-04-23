@@ -184,9 +184,6 @@ img {
 .partner-img img {
   border-radius: 50%;
 }
-.hunter {
-  /* background-image: url(../img/mb/icon-1.jpg); */
-}
 .hunter::before {
   display: block;
   content: "";
@@ -202,9 +199,6 @@ img {
   background-repeat: no-repeat;
   background-position: center;
   transform: translate(80px, 80px);
-}
-.marsha {
-  /* background-image: url(../img/mb/icon-2.jpg); */
 }
 .marsha::before {
   display: block;
@@ -222,9 +216,6 @@ img {
   background-position: center;
   transform: translate(80px, 80px);
 }
-.walker {
-  /* background-image: url(../img/mb/icon-3.jpg); */
-}
 .walker::before {
   display: block;
   content: "";
@@ -240,9 +231,6 @@ img {
   background-repeat: no-repeat;
   background-position: center;
   transform: translate(80px, 80px);
-}
-.bradley {
-  /* background-image: url(../img/mb/icon-4.jpg); */
 }
 .bradley::before {
   display: block;
