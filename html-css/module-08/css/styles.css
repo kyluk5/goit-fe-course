@@ -125,6 +125,12 @@ img {
   text-transform: uppercase;
   margin-bottom: 18px;
 }
+@media (max-width: 767px) {
+  .about-dream {
+    width: 75%;
+    margin: 0 auto;
+  }
+}
 .about-dream {
   font-size: 18px;
   line-height: 1.2;
@@ -328,18 +334,17 @@ img {
   .main-navigation {
     justify-content: space-between;
     align-items: baseline;
-    padding-bottom: 146px;
   }
   .navigation-button-list {
     margin: 0;
   }
   .share-your-dream {
     font-size: 52px;
-    padding-bottom: 38px;
+    margin-bottom: 38px;
   }
   .about-dream {
     font-size: 24px;
-    padding-bottom: 36px;
+    margin-bottom: 36px;
   }
   /* main-pc */
 
