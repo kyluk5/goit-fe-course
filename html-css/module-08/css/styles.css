@@ -172,8 +172,10 @@ img {
 .partner-list {
   margin-bottom: 28px;
 }
-.partner-list-item:not(:last-child) {
-  margin-bottom: 30px;
+@media (max-width 767px) {
+  .partner-list-item:not(:last-child) {
+    margin-bottom: 30px;
+  }
 }
 .partner-img {
   width: 122px;
@@ -184,69 +186,33 @@ img {
 .partner-img img {
   border-radius: 50%;
 }
-.hunter::before {
-  display: block;
+.partner-img::before {
   content: "";
-  border-style: solid;
-  border-width: 4px;
-  border-color: rgb(255, 255, 255);
-  border-radius: 50%;
-  background-color: rgb(255, 78, 80);
   position: absolute;
+  bottom: 0;
+  right: 0;
+  border: 4px solid rgb(255, 255, 255);
+  border-radius: 50%;
   width: 37px;
   height: 37px;
-  background-image: url(../img/mb/tv.png);
   background-repeat: no-repeat;
   background-position: center;
-  transform: translate(80px, 80px);
+}
+.hunter::before {
+  background-color: rgb(255, 78, 80);
+  background-image: url(../img/mb/tv.png);
 }
 .marsha::before {
-  display: block;
-  content: "";
-  border-style: solid;
-  border-width: 4px;
-  border-color: rgb(255, 255, 255);
-  border-radius: 50%;
   background-color: rgb(255, 165, 7);
-  position: absolute;
-  width: 37px;
-  height: 37px;
   background-image: url(../img/mb/flask.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  transform: translate(80px, 80px);
 }
 .walker::before {
-  display: block;
-  content: "";
-  border-style: solid;
-  border-width: 4px;
-  border-color: rgb(255, 255, 255);
-  border-radius: 50%;
   background-color: rgb(28, 215, 173);
-  position: absolute;
-  width: 37px;
-  height: 37px;
   background-image: url(../img/mb/coffe.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  transform: translate(80px, 80px);
 }
 .bradley::before {
-  display: block;
-  content: "";
-  border-style: solid;
-  border-width: 4px;
-  border-color: rgb(255, 255, 255);
-  border-radius: 50%;
   background-color: rgb(78, 115, 219);
-  position: absolute;
-  width: 37px;
-  height: 37px;
   background-image: url(../img/mb/telegram.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  transform: translate(80px, 80px);
 }
 .partner-name {
   font-size: 14px;
@@ -327,6 +293,9 @@ img {
   }
   .partner-list-item {
     width: 35%;
+  }
+  .partner-list-item:not(:nth-last-child(-n + 2)) {
+    margin-bottom: 20px;
   }
 }
 
