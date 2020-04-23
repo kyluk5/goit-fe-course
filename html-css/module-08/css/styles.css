@@ -88,7 +88,7 @@ img {
 .main-logo-mobile {
   display: block;
   text-align: center;
-  padding-bottom: 34px;
+  margin-bottom: 34px;
   font-size: 20px;
   line-height: 1.2;
   font-family: "Montserrat", sans-serif;
@@ -123,7 +123,7 @@ img {
   color: #ffffff;
   text-align: center;
   text-transform: uppercase;
-  padding-bottom: 18px;
+  margin-bottom: 18px;
 }
 .about-dream {
   font-size: 18px;
@@ -132,7 +132,7 @@ img {
   font-weight: 300;
   color: #ffffff;
   text-align: center;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
 }
 .dream-link {
   display: block;
@@ -149,7 +149,7 @@ img {
 }
 .main-navigation {
   display: flex;
-  padding-bottom: 116px;
+  margin-bottom: 116px;
 }
 .navigation-button-list {
   margin: 0 auto;
@@ -167,7 +167,13 @@ img {
   line-height: 1.2;
   font-family: 700;
   text-align: center;
-  padding-bottom: 16px;
+  margin-bottom: 16px;
+}
+.partner-list {
+  margin-bottom: 28px;
+}
+.partner-list-item:not(:last-child) {
+  margin-bottom: 30px;
 }
 .partner-img {
   width: 122px;
@@ -268,7 +274,6 @@ img {
   line-height: 1.2;
   text-align: center;
   font-weight: 300;
-  padding-bottom: 30px;
 }
 .other-partners {
   display: block;
@@ -307,21 +312,24 @@ img {
   .main-navigation {
     justify-content: space-between;
     align-items: baseline;
-    padding-bottom: 146px;
+    margin-bottom: 146px;
   }
   .navigation-button-list {
     margin: 0;
   }
   .share-your-dream {
     font-size: 52px;
-    padding-bottom: 38px;
+    margin-bottom: 38px;
   }
   .about-dream {
     font-size: 24px;
-    padding-bottom: 36px;
+    margin-bottom: 36px;
   }
   /* main-tb */
 
+  .meet-partner {
+    margin-bottom: 34px;
+  }
   .partner-list {
     display: flex;
     flex-wrap: wrap;
@@ -365,10 +373,14 @@ img {
   }
   /* main-pc */
 
+  .meet-partner {
+    margin-bottom: 36px;
+  }
   .partner-list {
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
+    margin: 0px;
   }
   .partner-list-item {
     width: 23%;
