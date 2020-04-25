@@ -66,6 +66,8 @@ img {
 .main-header {
   background-image: url(../img/mb/Vector_mb.jpg);
   background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   padding: 20px 0px 138px 0px;
 }
 .main-navigation {
@@ -83,6 +85,8 @@ img {
   line-height: 1.2;
   width: 94px;
   height: 40px;
+  background-color: transparent;
+  border: none;
 }
 .navigation-button:hover,
 .navigation-button:focus {
