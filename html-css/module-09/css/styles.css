@@ -57,5 +57,88 @@ a {
 img {
   display: block;
   max-width: 100%;
+  height: auto;
   margin: 0 auto;
+}
+
+/* HEADER */
+
+.main-header {
+  background-image: url(../img/mb/Vector_mb.jpg);
+  background-repeat: no-repeat;
+  padding: 20px 0px 138px 0px;
+}
+.main-navigation {
+  margin-bottom: 34px;
+}
+.button-list {
+  text-align: center;
+  margin-bottom: 118px;
+}
+.navigation-button {
+  font-size: 14px;
+  font-family: "Montserrat";
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  line-height: 1.2;
+  width: 94px;
+  height: 40px;
+}
+.navigation-button:hover,
+.navigation-button:focus {
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(255, 255, 255);
+  background-color: transparent;
+  border-radius: 20px;
+  outline: none;
+}
+.main-logo {
+  display: block;
+  width: max-content;
+  margin: 0 auto;
+  font-size: 20px;
+  font-family: "Montserrat";
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1.2;
+}
+.dream-information {
+  text-align: center;
+}
+.dream {
+  font-size: 29px;
+  font-family: "Montserrat";
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+.about-dream {
+  font-size: 18px;
+  font-family: "Roboto";
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+  font-weight: 300;
+  margin-bottom: 18px;
+}
+.dream-link {
+  display: block;
+  margin: 0 auto;
+  font-size: 14px;
+  font-family: "Montserrat";
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  line-height: 40px;
+  border-radius: 20px;
+  background-color: rgb(255, 78, 80);
+  width: 280px;
+}
+@media (max-width: 767px) {
+  .about-dream {
+    width: 220px;
+    margin: 0 auto 18px;
+  }
 }
