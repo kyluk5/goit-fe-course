@@ -284,6 +284,9 @@ img {
   .list {
     margin-bottom: 38px;
   }
+  .partner-list-item {
+    margin-bottom: 58px;
+  }
 }
 @media (min-width: 960px) {
   .main-header {
