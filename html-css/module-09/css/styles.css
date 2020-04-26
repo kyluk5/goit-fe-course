@@ -133,13 +133,6 @@ img {
   width: 280px;
 }
 
-/* @media (max-width: 519px) {
-  .about-dream {
-    width: 220px;
-    margin: 0 auto 18px;
-  }
-} */
-
 @media (max-width: 767px) {
   .main-header {
     padding: 20px 0px 138px 0px;
@@ -155,7 +148,6 @@ img {
   }
   .about-dream {
     font-size: 18px;
-    /* margin-bottom: 18px; */
     margin: 0 auto 18px;
   }
 }
@@ -177,7 +169,6 @@ img {
   }
   .about-dream {
     font-size: 24px;
-    /* margin-bottom: 36px; */
     margin: 0 auto 36px;
   }
 }
@@ -198,7 +189,6 @@ img {
   }
   .about-dream {
     font-size: 24px;
-    /* margin-bottom: 40px; */
     margin: 0 auto 40px;
   }
 }
