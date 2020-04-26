@@ -275,6 +275,15 @@ img {
     font-size: 24px;
     margin: 0 auto 36px;
   }
+  .partner {
+    padding: 74px 0px 40px 0px;
+  }
+  .partner-title {
+    margin-bottom: 34px;
+  }
+  .list {
+    margin-bottom: 38px;
+  }
 }
 @media (min-width: 960px) {
   .main-header {
