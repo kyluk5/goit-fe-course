@@ -219,8 +219,8 @@ img {
   width: 284px;
   margin: 0 auto;
 }
-.other-partners:hover,
-.other-partners:focus {
+.other-partners-link:hover,
+.other-partners-link:focus {
   background-color: rgb(255, 78, 80);
   color: #ffffff;
 }
