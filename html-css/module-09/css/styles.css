@@ -133,6 +133,13 @@ img {
   width: 280px;
 }
 
+/* @media (max-width: 519px) {
+  .about-dream {
+    width: 220px;
+    margin: 0 auto 18px;
+  }
+} */
+
 @media (max-width: 767px) {
   .main-header {
     padding: 20px 0px 138px 0px;
@@ -148,18 +155,12 @@ img {
   }
   .about-dream {
     font-size: 18px;
-    margin-bottom: 18px;
-  }
-}
-
-@media (max-width: 519px) {
-  .about-dream {
-    width: 220px;
+    /* margin-bottom: 18px; */
     margin: 0 auto 18px;
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 768px) and (max-width: 959px) {
   .main-header {
     background-image: url(../img/tb/Vector_tb.jpg);
     padding: 38px 0px 234px 0px;
@@ -167,12 +168,37 @@ img {
   .main-navigation {
     margin-bottom: 154px;
   }
+  .dream-information {
+    margin: 0 auto;
+  }
   .dream {
     font-size: 52px;
     margin: 0 auto 40px;
   }
   .about-dream {
     font-size: 24px;
-    margin-bottom: 36px;
+    /* margin-bottom: 36px; */
+    margin: 0 auto 36px;
+  }
+}
+@media (min-width: 960px) {
+  .main-header {
+    background-image: url(../img/pc/Vector_pc.jpg);
+    padding: 34px 0px 234px 0px;
+  }
+  .main-navigation {
+    margin-bottom: 146px;
+  }
+  .dream-information {
+    margin: 0 auto;
+  }
+  .dream {
+    font-size: 52px;
+    margin: 0 auto 38px;
+  }
+  .about-dream {
+    font-size: 24px;
+    /* margin-bottom: 40px; */
+    margin: 0 auto 40px;
   }
 }
