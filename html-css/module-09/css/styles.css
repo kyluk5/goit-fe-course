@@ -143,6 +143,7 @@ img {
   color: rgb(51, 51, 51);
   font-weight: 700;
   line-height: 1.2;
+  text-align: center;
 }
 .partner-img {
   width: 122px;
@@ -215,6 +216,9 @@ img {
 }
 
 @media (max-width: 767px) {
+  .partner {
+    padding: 72px 0px 56px 0px;
+  }
   .main-header {
     padding: 20px 0px 138px 0px;
   }
@@ -230,6 +234,15 @@ img {
   .about-dream {
     font-size: 18px;
     margin: 0 auto 18px;
+  }
+  .title {
+    margin-bottom: 16px;
+  }
+  .list {
+    margin-bottom: 28px;
+  }
+  .partner-list-item:not(:last-child) {
+    margin-bottom: 28px;
   }
 }
 
