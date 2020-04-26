@@ -307,4 +307,13 @@ img {
     font-size: 24px;
     margin: 0 auto 40px;
   }
+  .partner {
+    padding: 72px 0px 72px 0px;
+  }
+  .partner-title {
+    margin-bottom: 34px;
+  }
+  .list {
+    margin-bottom: 38px;
+  }
 }
