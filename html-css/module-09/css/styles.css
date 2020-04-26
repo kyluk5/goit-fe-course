@@ -284,7 +284,7 @@ img {
   .list {
     margin-bottom: 38px;
   }
-  .partner-list-item {
+  .partner-list-item:nth-child(2) {
     margin-bottom: 58px;
   }
 }
