@@ -341,7 +341,9 @@ h6 {
   transition: all 200ms linear;
 }
 .social-link {
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 56px;
   height: 56px;
   background-color: #fce38a;
@@ -353,19 +355,15 @@ h6 {
   border-right: 1px solid rgb(243, 129, 129);
 }
 .social-link:hover {
-  background-color: #95e1d3;
+  background-color: #f38181;
 }
-.facebook {
-  background-image: url(../img/team/icon/facebook.svg);
+.social-link:hover .social-link-svg {
+  fill: #ffffff;
 }
-.twitter {
-  background-image: url(../img/team/icon/twitter.svg);
-}
-.pinterest {
-  background-image: url(../img/team/icon/pinterest.svg);
-}
-.instagram {
-  background-image: url(../img/team/icon/instagram.svg);
+.social-link-svg {
+  width: 26px;
+  height: 22px;
+  fill: #f38181;
 }
 .our-team-item img {
   margin-bottom: 30px;
