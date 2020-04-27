@@ -210,6 +210,9 @@ h6 {
 
 /* services */
 
+.services {
+  padding: 52px 0px 0px 0px;
+}
 .services-list {
   display: flex;
   flex-wrap: wrap;
