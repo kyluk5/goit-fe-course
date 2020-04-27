@@ -89,11 +89,11 @@ h6 {
 @media (min-resolution: 192dpi) {
   .main-header {
     background-image: linear-gradient(
-      0deg,
-      rgba(252, 227, 138, 0.9) 0%,
-      rgba(243, 129, 129, 0.9) 100%
-    ),
-    url(../img/header/eagle@2x.jpg);
+        0deg,
+        rgba(252, 227, 138, 0.9) 0%,
+        rgba(243, 129, 129, 0.9) 100%
+      ),
+      url(../img/header/eagle@2x.jpg);
   }
 }
 .main-navigation {
@@ -153,7 +153,7 @@ h6 {
   background-color: transparent;
   border: none;
   cursor: pointer;
-}  
+}
 .navigation-svg {
   width: 20px;
   height: 20px;
@@ -166,7 +166,6 @@ h6 {
   fill: #fce38a;
   transition: all 200ms linear;
 }
-
 
 .span-title {
   display: block;
@@ -205,7 +204,7 @@ h6 {
 .learn-more:hover {
   background-color: #fce38a;
 }
- /* MAIN */
+/* MAIN */
 
 .section-title {
   font-size: 24px;
@@ -357,16 +356,16 @@ h6 {
   background-color: #95e1d3;
 }
 .facebook {
-  background-image: url(../img/team/icon/facebook.png);
+  background-image: url(../img/team/icon/facebook.svg);
 }
 .twitter {
-  background-image: url(../img/team/icon/twitter.png);
+  background-image: url(../img/team/icon/twitter.svg);
 }
 .pinterest {
-  background-image: url(../img/team/icon/pinterest.png);
+  background-image: url(../img/team/icon/pinterest.svg);
 }
 .instagram {
-  background-image: url(../img/team/icon/instagram.png);
+  background-image: url(../img/team/icon/instagram.svg);
 }
 .our-team-item img {
   margin-bottom: 30px;
