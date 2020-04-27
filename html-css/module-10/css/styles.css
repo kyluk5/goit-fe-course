@@ -139,6 +139,24 @@ h6 {
 .navigation-list-link:hover::after {
   opacity: 1;
 }
+.navigation-list-item-btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}  
+.navigation-svg {
+  width: 20px;
+  height: 20px;
+  background-color: transparent;
+  background-size: contain;
+  fill: #ffffff;
+  transition: all 200ms linear;
+}
+.navigation-svg:hover {
+  fill: #fce38a;
+  transition: all 200ms linear;
+}
+
 
 .span-title {
   display: block;
@@ -228,22 +246,22 @@ h6 {
   margin-left: 80px;
 }
 .alarm {
-  background-image: url(../img/services/ALARM.png);
+  background-image: url(../img/services/alarm.svg);
 }
 .graph {
-  background-image: url(../img/services/GRAPH.png);
+  background-image: url(../img/services/graph.svg);
 }
 .computer {
-  background-image: url(../img/services/COMPUTER.png);
+  background-image: url(../img/services/computer.svg);
 }
 .book {
-  background-image: url(../img/services/BOOK.png);
+  background-image: url(../img/services/book.svg);
 }
 .home {
-  background-image: url(../img/services/HOME.png);
+  background-image: url(../img/services/home.svg);
 }
 .image {
-  background-image: url(../img/services/IMAGE.png);
+  background-image: url(../img/services/image.svg);
 }
 .services-name {
   font-size: 14px;
