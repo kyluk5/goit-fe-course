@@ -213,7 +213,7 @@ h6 {
   font-weight: 400;
   color: #333333;
   text-align: center;
-  padding-bottom: 44px;
+  margin-bottom: 44px;
 }
 .title-style {
   display: inline-block;
@@ -238,7 +238,7 @@ h6 {
 /* services */
 
 .services {
-  padding: 52px 0px 0px 0px;
+  padding: 52px 0px 96px 0px;
 }
 .services-list {
   display: flex;
@@ -249,7 +249,10 @@ h6 {
   width: 380px;
   background-color: transparent;
   background-repeat: no-repeat;
-  margin-bottom: 100px;
+  /* margin-bottom: 100px; */
+}
+.services-list-item:nth-child(-n+3) {
+margin-bottom: 100px;
 }
 .services-information {
   margin-left: 80px;
@@ -290,6 +293,9 @@ h6 {
 
 /* team */
 
+.team {
+  padding-bottom: 82px;
+}
 .about-team {
   font-size: 15px;
   line-height: 24px;
@@ -299,12 +305,11 @@ h6 {
   width: 980px;
   margin: 0 auto;
   text-align: center;
-  padding-bottom: 94px;
+  margin-bottom: 94px;
 }
 .our-team {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 82px;
 }
 .our-team-item {
   position: relative;
