@@ -139,12 +139,6 @@ h6 {
 .navigation-list-link:hover::after {
   opacity: 1;
 }
-/* .navigation-list-item-btn--shopping {
-  background-image: url(../img/header/shopping.svg);
-}
-.navigation-list-item-btn--glass {
-  background-image: url(../img/header/shopping.svg);
-} */
 
 .span-title {
   display: block;
