@@ -314,7 +314,7 @@ h6 {
 .services__list-item:nth-child(-n + 3) {
   margin-bottom: 100px;
 }
-.services-information {
+.services__information {
   margin-left: 80px;
 }
 .services__list-item--alarm {
@@ -335,7 +335,7 @@ h6 {
 .services__list-item--image {
   background-image: url(../img/services/image.svg);
 }
-.services-name {
+.services__name {
   font-size: 14px;
   line-height: 1.2;
   font-family: "Montserrat", sans-serif;
@@ -343,7 +343,7 @@ h6 {
   color: #333333;
   text-transform: uppercase;
 }
-.about-services {
+.services__about {
   font-size: 15px;
   line-height: 24px;
   font-family: "Roboto", sans-serif;
@@ -379,7 +379,7 @@ h6 {
   position: relative;
   width: 380px;
 }
-.our-team__list-item:hover .team-content {
+.our-team__list-item:hover .list-item-content {
   -webkit-transform: translate(-10px, -10px);
   -ms-transform: translate(-10px, -10px);
   transform: translate(-10px, -10px);
@@ -392,7 +392,7 @@ h6 {
 .our-team__list-item:hover .overlay {
   opacity: 1;
 }
-.team-content {
+.list-item-content {
   position: relative;
 }
 
