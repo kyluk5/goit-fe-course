@@ -1,0 +1,28 @@
+.section-title {
+  font-size: 24px;
+  line-height: 1.2;
+  font-family: "Kaushan Script", serif;
+  font-weight: 400;
+  color: #333333;
+  text-align: center;
+  margin-bottom: 44px;
+}
+.title-style {
+  display: inline-block;
+  font-size: 30px;
+  line-height: 1.2;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: #333333;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+.section-title::after {
+  display: block;
+  content: "";
+  background-color: rgb(243, 129, 129);
+  width: 60px;
+  height: 3px;
+  margin: 0 auto;
+  margin-top: 40px;
+}
