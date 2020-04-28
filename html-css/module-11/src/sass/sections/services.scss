@@ -43,7 +43,7 @@
 .services__name {
   font-size: 14px;
   line-height: 1.2;
-  font-family: "Montserrat", sans-serif;
+  font-family: $main-font, sans-serif;
   font-weight: 400;
   color: #333333;
   text-transform: uppercase;
@@ -51,7 +51,7 @@
 .services__about {
   font-size: 15px;
   line-height: 24px;
-  font-family: "Roboto", sans-serif;
+  font-family: $secondaru-font, sans-serif;
   font-weight: 400;
-  color: #999999;
+  color: $secondary-text-color;
 }

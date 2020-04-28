@@ -1,6 +1,6 @@
 .main-footer::before {
   display: block;
-  content: "";
+  content: '';
   height: 1px;
   width: 1200px;
   background-color: rgb(229, 229, 229);
@@ -21,14 +21,14 @@
 .designed {
   font-size: 14px;
   line-height: 1.2;
-  font-family: "Montserrat", sans-serif;
+  font-family: $main-font, sans-serif;
   font-weight: 400;
   color: #333333;
 }
 .designed-link {
   font-size: 14px;
   line-height: 1.2;
-  font-family: "Montserrat", sans-serif;
+  font-family: $main-font, sans-serif;
   font-weight: 400;
   color: #f38181;
 }
@@ -40,7 +40,7 @@
 .subscribe-form__input {
   font-size: 15px;
   line-height: 24px;
-  font-family: "Roboto", sans-serif;
+  font-family: $secondaru-font, sans-serif;
   font-weight: 300;
   font-style: italic;
   width: 230px;
@@ -50,9 +50,9 @@
 .subscribe-form__btn {
   font-size: 14px;
   line-height: 1.2;
-  font-family: "Montserrat", sans-serif;
+  font-family: $main-font, sans-serif;
   font-weight: 700;
-  color: #ffffff;
+  color: $text-color;
   text-transform: uppercase;
   background-color: rgb(149, 225, 211);
   width: 150px;

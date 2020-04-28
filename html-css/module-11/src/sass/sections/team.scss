@@ -4,9 +4,9 @@
 .about-team {
   font-size: 15px;
   line-height: 24px;
-  font-family: "Roboto", sans-serif;
+  font-family: $secondaru-font, sans-serif;
   font-weight: 400;
-  color: #999999;
+  color: $secondary-text-color;
   width: 980px;
   margin: 0 auto;
   text-align: center;
@@ -120,7 +120,7 @@
 .team-name {
   font-size: 14px;
   line-height: 1.2;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   color: #333333;
   text-transform: uppercase;
@@ -131,9 +131,9 @@
   display: block;
   font-size: 15px;
   line-height: 24px;
-  font-family: "Roboto", sans-serif;
+  font-family: $secondaru-font, sans-serif;
   font-style: italic;
   font-weight: 300;
-  color: #999999;
+  color: $secondary-text-color;
   text-align: center;
 }
