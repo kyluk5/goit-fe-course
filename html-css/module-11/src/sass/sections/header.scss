@@ -23,6 +23,7 @@
   background-position: center;
   background-size: cover;
 }
+
 @media (-webkit-min-device-pixel-ratio: 2),
   (-o-min-device-pixel-ratio: 2/1),
   (min-resolution: 192dpi) {
@@ -49,6 +50,7 @@
       url(../images/header/eagle@2x.jpg);
   }
 }
+
 .main-navigation {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -60,7 +62,25 @@
   -ms-flex-align: baseline;
   align-items: baseline;
   margin-bottom: 196px;
+
+  &__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+
+    &-item {
+      position: relative;
+    }
+
+    &-item:not(:last-child) {
+      margin-right: 56px;
+    }
+  }
 }
+
 .main-logo-link {
   font-size: 30px;
   line-height: 1.2;
@@ -71,24 +91,12 @@
   -o-transition: all 200ms linear;
   transition: all 200ms linear;
 }
+
 .main-logo-link:hover {
   color: $hover-color;
 }
-.main-navigation__list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-.main-navigation__list-item {
-  position: relative;
-}
-.main-navigation__list-item:not(:last-child) {
-  margin-right: 56px;
-}
-.navigation__list-link {
+
+.navigation__list-item-link {
   font-size: 14px;
   line-height: 1.2;
   font-family: $main-font, sans-serif;
@@ -99,7 +107,8 @@
   -o-transition: color 200ms linear;
   transition: color 200ms linear;
 }
-.navigation__list-link::after {
+
+.navigation__list-item-link::after {
   display: block;
   content: '';
   width: 100%;
@@ -114,17 +123,21 @@
   -o-transition: all 200ms linear;
   transition: all 200ms linear;
 }
-.navigation__list-link:hover {
+
+.navigation__list-item-link:hover {
   color: $hover-color;
 }
-.navigation__list-link:hover::after {
+
+.navigation__list-item-link:hover::after {
   opacity: 1;
 }
+
 .navigation__list-item-btn {
   background-color: transparent;
   border: none;
   cursor: pointer;
 }
+
 .navigation-svg {
   width: 20px;
   height: 20px;
@@ -135,6 +148,7 @@
   -o-transition: all 200ms linear;
   transition: all 200ms linear;
 }
+
 .navigation-svg:hover {
   fill: $hover-color;
   -webkit-transition: all 200ms linear;
@@ -151,6 +165,7 @@
   text-align: center;
   margin-bottom: 43px;
 }
+
 .main-title {
   font-size: 150px;
   font-family: $main-font, sans-serif;
@@ -160,6 +175,7 @@
   text-align: center;
   margin-bottom: 109px;
 }
+
 .learn-more {
   display: block;
   font-size: 14px;
@@ -178,6 +194,7 @@
   -o-transition: all 200ms linear;
   transition: all 200ms linear;
 }
+
 .learn-more:hover {
   background-color: $hover-color;
 }
